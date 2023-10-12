@@ -13,6 +13,7 @@
     "navigationBarTextStyle": "white"
   },
   "tabBar": {
+    "custom": true,
     "list": [
       {
         "iconPath": "images/navigator/index.png",
