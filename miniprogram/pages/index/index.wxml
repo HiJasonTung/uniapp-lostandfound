@@ -29,7 +29,7 @@
 
   <!-- 丢失栏目 -->
   <view class="lose">
-    <view class="lose-item" wx:for="{{ [1, 2, 3] }}">
+    <view class="lose-item" wx:for="{{ [1, 2, 3] }}" wx:key="index">
       <image src="../../images/image01.jpg" mode=""/>
         <view class="lose-content">
           <text class="name">Monopoly</text>
