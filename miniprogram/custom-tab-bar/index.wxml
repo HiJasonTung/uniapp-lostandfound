@@ -1,0 +1,13 @@
+<view class="tabbar">
+  <view class="tabbar-item" wx:for="{{ list }}">
+    <block wx:if="{{ item.type === 0 }}">
+      <image src="../images/navigator/index.png"></image>
+      <text>首页</text>
+    </block>
+    <block wx:else>
+      <view class="publish">
+        <image src="../images/navigator/add.png" mode=""/>
+      </view>
+    </block> 
+  </view>
+</view>
